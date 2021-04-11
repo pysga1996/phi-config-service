@@ -1,9 +1,9 @@
 eureka:
   client:
     service-url:
-      defaultZone: https://chi-recovery-service.herokuapp.com/eureka
+      defaultZone: https://chi-discovery-service.herokuapp.com/eureka
   instance:
-    hostname: chi-recovery-service.herokuapp.com
+    hostname: phi-config-service.herokuapp.com
 server:
   port: 8030
 spring:
