@@ -1,0 +1,22 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka
+  instance:
+    hostname: localhost
+server:
+  port: 8030
+spring:
+  application:
+    name: phi-config-service
+  cloud:
+    config:
+      server:
+        git:
+          ignoreLocalSshSettings: true
+          private-key: ${GIT_SSH_PRIVATE_KEY:}
+          uri: git@github.com:pysga1996/vengeance-config.git
+  security:
+    user:
+      name: ${CONFIG_USERNAME:}
+      password: ${CONFIG_PASSWORD:}
