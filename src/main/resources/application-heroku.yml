@@ -86,3 +86,4 @@ eureka:
     hostname: phi-config-service.herokuapp.com
     non-secure-port-enabled: false
     secure-port-enabled: true
+    secure-port: 443
