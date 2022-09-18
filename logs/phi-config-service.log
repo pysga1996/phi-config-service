@@ -1,0 +1,123 @@
+2021-10-09 11:52:40,883 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-10-09 11:52:41,019 INFO o.s.b.StartupInfoLogger [main] Starting PhiConfigServiceApplication v0.0.1-SNAPSHOT using Java 17 on ts-client31 with PID 14080 (F:\Programming\Java\projects\phi-config-service\target\phi-config-service-0.0.1-SNAPSHOT.jar started by pysga in F:\Programming\Java\projects\phi-config-service)
+2021-10-09 11:52:41,029 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-09 11:52:45,195 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=46859aed-ef4a-3d3e-93e3-f09a911523c7
+2021-10-09 11:52:46,278 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8030 (http)
+2021-10-09 11:52:46,342 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8030"]
+2021-10-09 11:52:46,343 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-09 11:52:46,344 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-10-09 11:52:46,472 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-09 11:52:46,473 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5312 ms
+2021-10-09 11:52:47,260 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:52:49,034 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
+2021-10-09 11:52:51,543 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
+2021-10-09 11:52:51,570 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-10-09 11:52:51,863 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-09 11:52:51,872 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-09 11:52:51,911 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-10-09 11:52:52,008 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-10-09 11:52:52,045 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-10-09 11:52:52,146 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2021-10-09 11:52:52,146 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2021-10-09 11:52:52,147 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2021-10-09 11:52:52,147 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2021-10-09 11:52:52,148 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2021-10-09 11:52:52,149 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2021-10-09 11:52:52,149 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-10-09 11:52:53,036 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2021-10-09 11:52:53,039 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2021-10-09 11:52:53,044 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-09 11:52:53,053 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1633755173051 with initial instances count: 0
+2021-10-09 11:52:53,055 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application PHI-CONFIG-SERVICE with eureka with status UP
+2021-10-09 11:52:53,056 INFO c.n.d.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1633755173056, current=UP, previous=STARTING]
+2021-10-09 11:52:53,060 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030: registering service...
+2021-10-09 11:52:53,062 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8030"]
+2021-10-09 11:52:53,132 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8030 (http) with context path ''
+2021-10-09 11:52:53,134 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8030
+2021-10-09 11:52:53,277 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030 - registration status: 204
+2021-10-09 11:52:54,531 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
+2021-10-09 11:52:54,560 INFO o.s.b.StartupInfoLogger [main] Started PhiConfigServiceApplication in 16.615 seconds (JVM running for 19.642)
+2021-10-09 11:53:05,854 INFO o.a.j.l.DirectJDKLog [http-nio-8030-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-09 11:53:05,855 INFO o.s.w.s.FrameworkServlet [http-nio-8030-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-09 11:53:05,856 INFO o.s.w.s.FrameworkServlet [http-nio-8030-exec-1] Completed initialization in 1 ms
+2021-10-09 11:53:18,343 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-1] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\lambda-auth-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 11:53:23,049 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2021-10-09 11:53:23,049 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2021-10-09 11:53:23,050 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2021-10-09 11:53:23,050 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2021-10-09 11:53:23,050 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2021-10-09 11:53:23,051 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2021-10-09 11:53:23,051 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2021-10-09 11:53:23,066 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2021-10-09 11:57:52,166 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:02:52,170 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:07:52,186 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:09:28,110 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-3] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 12:12:52,203 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:17:52,208 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:21:15,589 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-10] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 12:22:52,213 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:25:19,228 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-2] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 12:27:52,225 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:32:52,231 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:37:52,244 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:42:20,575 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-4] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 12:42:52,261 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:47:52,267 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:52:52,278 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 12:54:37,736 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-6] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 12:57:52,282 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:02:52,291 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:07:52,304 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:12:52,311 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:17:52,322 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:21:09,119 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-2] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 13:22:52,325 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:25:33,774 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-4] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 13:27:52,342 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:32:52,346 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:37:52,350 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:42:52,364 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:47:52,372 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:52:52,379 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 13:57:52,384 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:02:52,398 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:07:52,411 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:12:52,435 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:16:32,054 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-2] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 14:17:52,446 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:22:52,454 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:25:39,645 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-1] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 14:27:52,458 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:32:52,482 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:37:52,596 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:41:43,301 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-3] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 14:42:52,648 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:46:49,314 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-9] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 14:47:52,664 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:52:52,680 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 14:57:52,690 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:02:52,704 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:07:52,714 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:12:52,728 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:17:52,739 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:22:52,748 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:27:52,761 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:28:41,416 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-6] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 15:32:52,764 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:37:52,776 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:42:52,839 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:47:52,843 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:48:36,192 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-3] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
+2021-10-09 15:52:52,849 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 15:57:52,861 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:02:52,863 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:07:52,871 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:12:52,918 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:17:52,920 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:22:52,934 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:27:52,948 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:32:53,040 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:37:53,053 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:42:53,058 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-09 16:47:53,110 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

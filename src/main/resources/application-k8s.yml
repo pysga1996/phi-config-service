@@ -1,0 +1,107 @@
+logging:
+  level:
+    root: INFO
+  config: classpath:log4j-spring.xml
+server:
+  port: 8030
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 1024
+#  http2:
+#    enabled: true
+#  ssl:
+#    enabled: true
+#    enabled-protocols: TLSv1.2
+#    key-alias: ${SSL_KEY_ALIAS:}
+#    key-password: ${SSL_KEY_PASSWORD:}
+#    key-store: classpath:vengeance.jks
+#    key-store-password: ${SSL_KEYSTORE_PASSWORD:}
+#    key-store-type: JKS
+#    protocol: TLS
+  forward-headers-strategy: framework
+spring:
+  application:
+    name: phi-config-service
+  cloud:
+    config:
+      server:
+        git:
+          ignoreLocalSshSettings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            Proc-Type: 4,ENCRYPTED
+            DEK-Info: AES-128-CBC,71FE33DBDCBF3250A6CC49FEE546A606
+
+            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
+            -----END RSA PRIVATE KEY-----
+          passphrase: ${SSH_KEY_PASSPHRASE:}
+          uri: git@github.com:pysga1996/vengeance-config.git
+  security:
+    user:
+      name: ${CONFIG_USERNAME:}
+      password: ${CONFIG_PASSWORD:}
+custom:
+  trust-store-password: ${SSL_TRUSTSTORE_PASSWORD:}
+  trust-store-type: JKS
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:}
+  instance:
+    hostname: phi-config.vengeance.svc.cluster.local
+    non-secure-port-enabled: true
+    secure-port-enabled: false
