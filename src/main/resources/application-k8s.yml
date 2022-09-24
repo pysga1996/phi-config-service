@@ -3,7 +3,7 @@ logging:
     root: INFO
   config: classpath:log4j-spring.xml
 server:
-  port: 8030
+  port: 80
   servlet:
     context-path: /
     encoding:

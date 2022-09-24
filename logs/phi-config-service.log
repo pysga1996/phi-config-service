@@ -1,123 +1,264 @@
-2021-10-09 11:52:40,883 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
-2021-10-09 11:52:41,019 INFO o.s.b.StartupInfoLogger [main] Starting PhiConfigServiceApplication v0.0.1-SNAPSHOT using Java 17 on ts-client31 with PID 14080 (F:\Programming\Java\projects\phi-config-service\target\phi-config-service-0.0.1-SNAPSHOT.jar started by pysga in F:\Programming\Java\projects\phi-config-service)
-2021-10-09 11:52:41,029 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-10-09 11:52:45,195 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=46859aed-ef4a-3d3e-93e3-f09a911523c7
-2021-10-09 11:52:46,278 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8030 (http)
-2021-10-09 11:52:46,342 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8030"]
-2021-10-09 11:52:46,343 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2021-10-09 11:52:46,344 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-10-09 11:52:46,472 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2021-10-09 11:52:46,473 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5312 ms
-2021-10-09 11:52:47,260 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
-2021-10-09 11:52:49,034 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
-2021-10-09 11:52:51,543 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
-2021-10-09 11:52:51,570 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2021-10-09 11:52:51,863 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2021-10-09 11:52:51,872 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
-2021-10-09 11:52:51,911 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2021-10-09 11:52:52,008 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2021-10-09 11:52:52,045 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
-2021-10-09 11:52:52,146 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
-2021-10-09 11:52:52,146 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
-2021-10-09 11:52:52,147 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
-2021-10-09 11:52:52,147 INFO c.n.d.DiscoveryClient [main] Application is null : false
-2021-10-09 11:52:52,148 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
-2021-10-09 11:52:52,149 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
-2021-10-09 11:52:52,149 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
-2021-10-09 11:52:53,036 INFO c.n.d.DiscoveryClient [main] The response status is 200
-2021-10-09 11:52:53,039 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
-2021-10-09 11:52:53,044 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
-2021-10-09 11:52:53,053 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1633755173051 with initial instances count: 0
-2021-10-09 11:52:53,055 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application PHI-CONFIG-SERVICE with eureka with status UP
-2021-10-09 11:52:53,056 INFO c.n.d.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1633755173056, current=UP, previous=STARTING]
-2021-10-09 11:52:53,060 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030: registering service...
-2021-10-09 11:52:53,062 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8030"]
-2021-10-09 11:52:53,132 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8030 (http) with context path ''
-2021-10-09 11:52:53,134 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8030
-2021-10-09 11:52:53,277 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030 - registration status: 204
-2021-10-09 11:52:54,531 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
-2021-10-09 11:52:54,560 INFO o.s.b.StartupInfoLogger [main] Started PhiConfigServiceApplication in 16.615 seconds (JVM running for 19.642)
-2021-10-09 11:53:05,854 INFO o.a.j.l.DirectJDKLog [http-nio-8030-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-10-09 11:53:05,855 INFO o.s.w.s.FrameworkServlet [http-nio-8030-exec-1] Initializing Servlet 'dispatcherServlet'
-2021-10-09 11:53:05,856 INFO o.s.w.s.FrameworkServlet [http-nio-8030-exec-1] Completed initialization in 1 ms
-2021-10-09 11:53:18,343 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-1] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\lambda-auth-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 11:53:23,049 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
-2021-10-09 11:53:23,049 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
-2021-10-09 11:53:23,050 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
-2021-10-09 11:53:23,050 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
-2021-10-09 11:53:23,050 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
-2021-10-09 11:53:23,051 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
-2021-10-09 11:53:23,051 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
-2021-10-09 11:53:23,066 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
-2021-10-09 11:57:52,166 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:02:52,170 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:07:52,186 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:09:28,110 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-3] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 12:12:52,203 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:17:52,208 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:21:15,589 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-10] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 12:22:52,213 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:25:19,228 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-2] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 12:27:52,225 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:32:52,231 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:37:52,244 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:42:20,575 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-4] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 12:42:52,261 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:47:52,267 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:52:52,278 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 12:54:37,736 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-6] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 12:57:52,282 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:02:52,291 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:07:52,304 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:12:52,311 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:17:52,322 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:21:09,119 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-2] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 13:22:52,325 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:25:33,774 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-4] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 13:27:52,342 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:32:52,346 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:37:52,350 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:42:52,364 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:47:52,372 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:52:52,379 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 13:57:52,384 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:02:52,398 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:07:52,411 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:12:52,435 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:16:32,054 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-2] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 14:17:52,446 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:22:52,454 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:25:39,645 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-1] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 14:27:52,458 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:32:52,482 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:37:52,596 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:41:43,301 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-3] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 14:42:52,648 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:46:49,314 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-9] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 14:47:52,664 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:52:52,680 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 14:57:52,690 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:02:52,704 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:07:52,714 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:12:52,728 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:17:52,739 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:22:52,748 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:27:52,761 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:28:41,416 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-6] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 15:32:52,764 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:37:52,776 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:42:52,839 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:47:52,843 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:48:36,192 INFO o.s.c.c.s.e.NativeEnvironmentRepository [http-nio-8030-exec-3] Adding property source: Config resource 'file [D:\Users\pysga\AppData\Local\Temp\config-repo-7921096091666904256\alpha-sound-service-default.yml]' via location 'file:/D:/Users/pysga/AppData/Local/Temp/config-repo-7921096091666904256/'
-2021-10-09 15:52:52,849 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 15:57:52,861 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:02:52,863 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:07:52,871 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:12:52,918 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:17:52,920 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:22:52,934 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:27:52,948 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:32:53,040 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:37:53,053 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:42:53,058 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
-2021-10-09 16:47:53,110 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-18 21:36:01,122 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2022-09-18 21:36:01,163 INFO o.s.b.StartupInfoLogger [main] Starting PhiConfigServiceApplicationTests using Java 1.8.0_261 on ts-client31 with PID 1484 (started by pysga in F:\Programming\Java\projects\phi-config-service)
+2022-09-18 21:36:01,169 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-09-18 21:36:02,631 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=ee0ad13a-6ac4-3f27-9ef7-9045e36d7234
+2022-09-18 21:36:03,623 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 21:36:05,907 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
+2022-09-18 21:36:09,618 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
+2022-09-18 21:36:09,645 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-09-18 21:36:10,060 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-18 21:36:10,085 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-09-18 21:36:10,159 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-09-18 21:36:10,241 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-09-18 21:36:10,249 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-09-18 21:36:10,251 ERROR c.n.d.s.r.a.ConfigClusterResolver [main] Cannot resolve to any endpoints from provided configuration: {defaultZone=[]}
+2022-09-18 21:36:10,738 ERROR c.n.d.s.t.EurekaHttpClients [main] Initial resolution of Eureka server endpoints failed. Check ConfigClusterResolver logs for more info
+2022-09-18 21:36:10,762 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2022-09-18 21:36:10,763 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2022-09-18 21:36:10,763 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2022-09-18 21:36:10,764 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2022-09-18 21:36:10,764 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2022-09-18 21:36:10,765 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2022-09-18 21:36:10,765 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-09-18 21:36:10,772 INFO c.n.d.DiscoveryClient [main] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = There is no known eureka server; cluster server list is empty stacktrace = com.netflix.discovery.shared.transport.TransportException: There is no known eureka server; cluster server list is empty
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:108)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:441)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:283)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:279)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:66)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:374)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:376)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:127)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:485)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$7b34828.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:54)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+2022-09-18 21:36:10,776 INFO c.n.d.DiscoveryClient [main] Initial registry fetch from primary servers failed
+2022-09-18 21:36:10,777 WARN c.n.d.DiscoveryClient$1 [main] Using default backup registry implementation which does not do anything.
+2022-09-18 21:36:10,778 INFO c.n.d.DiscoveryClient [main] Initial registry fetch from backup servers failed
+2022-09-18 21:36:10,780 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-09-18 21:36:10,785 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-18 21:36:10,795 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1663511770792 with initial instances count: 0
+2022-09-18 21:36:10,802 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application PHI-CONFIG-SERVICE with eureka with status UP
+2022-09-18 21:36:10,804 INFO c.n.d.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1663511770804, current=UP, previous=STARTING]
+2022-09-18 21:36:10,813 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030: registering service...
+2022-09-18 21:36:10,818 WARN c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030 - registration failed There is no known eureka server; cluster server list is empty
+com.netflix.discovery.shared.transport.TransportException: There is no known eureka server; cluster server list is empty
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:108) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+2022-09-18 21:36:10,828 WARN c.n.d.InstanceInfoReplicator [DiscoveryClient-InstanceInfoReplicator-0] There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: There is no known eureka server; cluster server list is empty
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:108) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+2022-09-18 21:36:10,843 INFO o.s.b.StartupInfoLogger [main] Started PhiConfigServiceApplicationTests in 11.945 seconds (JVM running for 13.653)
+2022-09-18 21:36:11,517 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application PHI-CONFIG-SERVICE with eureka with status DOWN
+2022-09-18 21:36:11,517 INFO c.n.d.DiscoveryClient$3 [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1663511771517, current=DOWN, previous=UP]
+2022-09-18 21:36:11,518 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030: registering service...
+2022-09-18 21:36:11,518 WARN c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030 - registration failed There is no known eureka server; cluster server list is empty
+com.netflix.discovery.shared.transport.TransportException: There is no known eureka server; cluster server list is empty
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:108) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+2022-09-18 21:36:11,519 WARN c.n.d.InstanceInfoReplicator [DiscoveryClient-InstanceInfoReplicator-0] There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: There is no known eureka server; cluster server list is empty
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:108) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_261]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+2022-09-18 21:36:11,522 INFO o.s.s.c.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 21:36:11,526 INFO c.n.d.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2022-09-18 21:36:14,537 INFO c.n.d.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2022-09-18 21:36:14,540 ERROR c.n.d.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_PHI-CONFIG-SERVICE/localhost:phi-config-service:8030 - de-registration failedThere is no known eureka server; cluster server list is empty
+com.netflix.discovery.shared.transport.TransportException: There is no known eureka server; cluster server list is empty
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:108) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) [eureka-client-1.10.11.jar:1.10.11]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) [spring-cloud-context-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) [spring-cloud-context-3.0.2.jar:3.0.2]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) [spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) [spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) [spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:991) [spring-context-5.3.5.jar:5.3.5]
+2022-09-18 21:36:14,565 INFO c.n.d.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
