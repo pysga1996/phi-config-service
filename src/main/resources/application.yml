@@ -91,6 +91,7 @@ spring:
           passphrase: ${SSH_KEY_PASSPHRASE:}
           uri: git@github.com:pysga1996/vengeance-config.git
           refresh-rate: 300
+          force-pull: true
   security:
     user:
       name: ${CONFIG_USERNAME:}
