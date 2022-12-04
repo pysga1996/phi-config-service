@@ -33,4 +33,4 @@ build/
 .vscode/
 *.bk
 /logs/
-/logs/
+/environment/

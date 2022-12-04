@@ -1,33 +1,4 @@
-logging:
-  level:
-    root: INFO
-  config: classpath:log4j-spring.xml
-server:
-  port: 8030
-  servlet:
-    context-path: /
-    encoding:
-      charset: UTF-8
-      enabled: true
-  compression:
-    enabled: true
-    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
-    min-response-size: 1024
-#  http2:
-#    enabled: true
-#  ssl:
-#    enabled: true
-#    enabled-protocols: TLSv1.2
-#    key-alias: ${SSL_KEY_ALIAS:}
-#    key-password: ${SSL_KEY_PASSWORD:}
-#    key-store: classpath:vengeance.jks
-#    key-store-password: ${SSL_KEYSTORE_PASSWORD:}
-#    key-store-type: JKS
-#    protocol: TLS
-  forward-headers-strategy: framework
 spring:
-  application:
-    name: phi-config-service
   cloud:
     config:
       server:
@@ -92,18 +63,11 @@ spring:
           uri: git@github.com:pysga1996/vengeance-config.git
           refresh-rate: 300
           force-pull: true
-  security:
-    user:
-      name: ${CONFIG_USERNAME:}
-      password: ${CONFIG_PASSWORD:}
-custom:
-  trust-store-password: ${SSL_TRUSTSTORE_PASSWORD:}
-  trust-store-type: JKS
 eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_SERVICE_URL:}
   instance:
-    hostname: phi-config.vengeance.net
+    hostname: ${PHI_CONFIG_HOSTNAME:}
     non-secure-port-enabled: true
     secure-port-enabled: false
