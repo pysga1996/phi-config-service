@@ -1,4 +1,4 @@
-FROM alpine-java:base
+FROM openjdk:8-jdk-alpine
 MAINTAINER pysga1996
 WORKDIR /app
 RUN mkdir -p /opt
