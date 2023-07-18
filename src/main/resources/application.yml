@@ -21,6 +21,3 @@ spring:
     user:
       name: ${CONFIG_USERNAME:}
       password: ${CONFIG_PASSWORD:}
-custom:
-  trust-store-password: ${SSL_TRUSTSTORE_PASSWORD:}
-  trust-store-type: JKS
