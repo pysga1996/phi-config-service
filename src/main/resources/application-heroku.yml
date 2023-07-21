@@ -4,7 +4,7 @@ logging:
   config: classpath:log4j-spring.xml
 server:
   servlet:
-    context-path: /phi-config
+    context-path: /phi-config-service
     encoding:
       charset: UTF-8
       enabled: true
